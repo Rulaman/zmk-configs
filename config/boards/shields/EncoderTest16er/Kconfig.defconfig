@@ -1,0 +1,13 @@
+if SHIELD_Encoder-Test-16er
+
+config ZMK_KEYBOARD_NAME
+    default "EncoderTest16er"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default n
+
+# Enable pinctrl
+CONFIG_PINCTRL=n
+
+endif
+

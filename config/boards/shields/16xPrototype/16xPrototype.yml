@@ -1,0 +1,13 @@
+file_format: "1"
+id: 16xPrototype
+name: 16xPrototype
+type: shield
+url: 
+requires: [nice_nano_v2]
+#exposes: [i2c_oled]
+features:
+  - keys
+#  - display
+#siblings:
+#  - tworows
+

@@ -1,0 +1,3 @@
+config SHIELD_Encoder-Test-16er
+    def_bool $(shields_list_contains,Encoder-Test-16er)
+

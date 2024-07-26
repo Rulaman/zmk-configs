@@ -1,0 +1,12 @@
+if SHIELD_MouseTestBlackpill
+
+config ZMK_KEYBOARD_NAME
+    default "MouseTest-BP"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default n
+
+# Enable pinctrl
+CONFIG_PINCTRL=n
+
+endif

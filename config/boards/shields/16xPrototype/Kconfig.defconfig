@@ -1,0 +1,13 @@
+if SHIELD_16xPROTOTYPE
+
+config ZMK_KEYBOARD_NAME
+    default "16xPrototype"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default n
+
+# Enable pinctrl
+CONFIG_PINCTRL=n
+
+endif
+

@@ -1,0 +1,16 @@
+file_format: "1"
+id: Encoder-Test-16er
+name: Encoder-Test-16er
+type: shield
+url:
+requires: [nice_nano_v2]
+#exposes: [i2c_oled]
+features:
+  - keys
+  - encoder
+#  - display
+#siblings:
+#  - tworows
+# include:
+#   - board: nice_nano_v2
+#     snippet: zmk-usb-logging

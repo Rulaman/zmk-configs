@@ -1,0 +1,13 @@
+if SHIELD_TWOROWS
+
+config ZMK_KEYBOARD_NAME
+    default "tworows"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default n
+
+# Enable pinctrl
+CONFIG_PINCTRL=n
+
+endif
+

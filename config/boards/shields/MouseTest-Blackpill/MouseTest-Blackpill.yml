@@ -1,0 +1,9 @@
+file_format: "1"
+id: MouseTest-Blackpill
+name: MouseTest-Blackpill
+type: shield
+url:
+requires: [blackpill_f411ce]
+features:
+  - keys
+  - encoder
